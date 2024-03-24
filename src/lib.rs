@@ -19,7 +19,7 @@ where
         }
     }
 
-    pub fn new_with_scale(scale: u8) -> Self {
+    pub fn with_scale(scale: u8) -> Self {
         FreqIterator {
             freq: START_FREQ.into(),
             scale: scale.into(),
