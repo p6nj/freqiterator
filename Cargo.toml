@@ -1,0 +1,12 @@
+[package]
+name = "freqiterator"
+version = "0.1.0"
+edition = "2021"
+description = "A simple no-dep lib for note frequency iterators."
+license = "Unlicense"
+repository = "https://github.com/p6nj/freqiterator"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num-traits = "0.2.18"
