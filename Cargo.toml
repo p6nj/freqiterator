@@ -1,6 +1,6 @@
 [package]
 name = "freqiterator"
-version = "2.0.0"
+version = "3.0.0"
 edition = "2021"
 description = "A simple no-dep lib for note frequency iterators."
 license = "Unlicense"
@@ -10,4 +10,5 @@ repository = "https://github.com/p6nj/freqiterator"
 
 [dependencies]
 derive-new = "0.6.0"
+num-derive = "0.4.2"
 num-traits = "0.2.18"
